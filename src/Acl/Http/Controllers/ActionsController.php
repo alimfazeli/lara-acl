@@ -5,7 +5,7 @@ namespace Alimfazeli\Acl\Http\Controllers;
 use Validator;
 use App\Http\Controllers\Controller;
 
-use Alimfazeli\Acl\Models\Action;
+use Alimfazeli\Acl\Models\Eloquent\Action;
 
 class ActionsController extends Controller
 {
