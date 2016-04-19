@@ -1,4 +1,4 @@
-<?php namespace Kodeine\Acl\Traits;
+<?php namespace Alimfazeli\Acl\Traits;
 
 use Illuminate\Support\Collection;
 

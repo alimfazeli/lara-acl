@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Alimfazeli\\Acl\\": "src/Alimfazeli/Acl"
+            "Alimfazeli\\Acl\\": "src/Acl"
         }
     }
 }

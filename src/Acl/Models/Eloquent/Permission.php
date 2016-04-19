@@ -1,4 +1,4 @@
-<?php namespace Kodeine\Acl\Models\Eloquent;
+<?php namespace Alimfazeli\Acl\Models\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -25,7 +25,7 @@ class Permission extends Model
      */
     public function roles()
     {
-        $model = config('acl.role', 'Kodeine\Acl\Models\Eloquent\Role');
+        $model = config('acl.role', 'Alimfazeli\Acl\Models\Eloquent\Role');
 
         return $this->belongsToMany($model)->withTimestamps();
     }
