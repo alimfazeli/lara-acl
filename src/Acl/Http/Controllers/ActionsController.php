@@ -1,6 +1,6 @@
 <?php
 
-namespace Alimfazeli\Acl\Http\Controllers\ActionsController;
+namespace Alimfazeli\Acl\Http\Controllers;
 
 use Validator;
 use App\Http\Controllers\Controller;
