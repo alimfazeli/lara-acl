@@ -7,13 +7,13 @@ use App\Http\Controllers\Controller;
 
 use Alimfazeli\Acl\Models\Action;
 
-class AuthController extends Controller
+class ActionsController extends Controller
 {
     /**
      * @var Eloquent model object for Actions
      */
     private $model;
-    
+
 
     public function __construct(Action $model)
     {
