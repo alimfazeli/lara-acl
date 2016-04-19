@@ -38,7 +38,7 @@ class AclServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/../../config/acl.php', 'acl'
+            __DIR__ . '/../config/acl.php', 'acl'
         );
     }
 
@@ -48,7 +48,7 @@ class AclServiceProvider extends ServiceProvider
     public function publishConfig()
     {
         $this->publishes([
-            __DIR__ . '/../../config/acl.php' => config_path('acl.php'),
+            __DIR__ . '/../config/acl.php' => config_path('acl.php'),
         ], 'config');
     }
 
@@ -58,7 +58,7 @@ class AclServiceProvider extends ServiceProvider
     public function publishMigration()
     {
         $this->publishes([
-            __DIR__ . '/../../migrations/' => base_path('/database/migrations'),
+            __DIR__ . '/../migrations/' => base_path('/database/migrations'),
         ], 'migrations');
     }
 

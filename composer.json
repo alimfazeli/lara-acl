@@ -1,6 +1,6 @@
 {
-    "name": "kodeine/laravel-acl",
-    "description": "Light-weight role-based permissions for Laravel 5 built in Auth system.",
+    "name": "alimfazeli/laravel-acl",
+    "description": "Light-weight role-based permissions for Laravel 5 built in Auth system. forked from kodeine/laravel-acl",
     "license": "MIT",
     "keywords": [
         "laravel",
@@ -13,8 +13,8 @@
     ],
     "authors": [
         {
-            "name": "Ahsen M.",
-            "homepage": "https://github.com/kodeine",
+            "name": "Ali Fazeli.",
+            "homepage": "http://alimfazeli.com",
             "role": "Developer"
         }
     ],
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kodeine\\Acl\\": "src/Kodeine/Acl"
+            "Alimfazeli\\Acl\\": "src/Alimfazeli/Acl"
         }
     }
 }
