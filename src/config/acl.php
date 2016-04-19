@@ -1,7 +1,17 @@
 <?php
 
 return [
+    /**
+    *
+    * List of All Controllers to use in
+    * search of public actions in order
+    * to save in permissions table
+    */
 
+   'controllers' => [
+       App\Http\Controllers\Auth\AuthController::class,
+   ],
+   
     /**
      * Model definitions.
      * If you want to use your own model and extend it

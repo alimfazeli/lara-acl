@@ -1,6 +1,6 @@
 {
     "name": "alimfazeli/lara-acl",
-    "description": "Light-weight role-based permissions for Laravel 5 built in Auth system. forked from kodeine/laravel-acl",
+    "description": "Light-weight role-based permissions for Laravel 5 built in Auth system. based on kodeine/laravel-acl",
     "license": "MIT",
     "keywords": [
         "laravel",
