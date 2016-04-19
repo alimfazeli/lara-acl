@@ -31,7 +31,7 @@ trait HasRole
      */
     public function getRoles()
     {
-        $slugs = $this->roles->lists('slug');
+        $slugs = $this->roles->lists('slug','id');
         return is_null($this->roles)
             ? []
             : $this->collectionAsArray($slugs);
@@ -63,6 +63,7 @@ trait HasRole
         $operator = is_null($operator) ? $this->parseOperator($slug) : $operator;
 
         $roles = $this->getRoles();
+        $roles = (array) $roles;
         $slug = $this->hasDelimiterToArray($slug);
 
         // array of slugs
